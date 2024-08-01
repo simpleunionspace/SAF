@@ -5,7 +5,7 @@ site_author: "SAF community"
 copyright: "SAF community"
 use_directory_urls: false
 nav:
-  - OVERVIEW: README.md
+  - OVERVIEW:    README.md
   - Targets:     targets.md
   - Maturity level:
     - OVERVIEW:  maturity/README.md
@@ -27,14 +27,22 @@ plugins:
   - search:
       lang: en
 theme:
-    name: material
-    language: en
-    features:
-        - navigation.tabs
-    palette:
-        - scheme: slate
-          toggle:
-            icon: material/brightness-7
-        - scheme: default
-          toggle:
-            icon: material/brightness-4
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+extra:
+  alternate:
+    - name: Русский
+      link: /ru/ 
+      lang: ru  
+    - name: English
+      link: /en/ 
+      lang: en

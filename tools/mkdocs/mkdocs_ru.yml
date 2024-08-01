@@ -38,3 +38,11 @@ theme:
     - scheme: default
       toggle:
         icon: material/brightness-4
+extra:
+  alternate:
+    - name: Русский
+      link: /ru/ 
+      lang: ru  
+    - name: English
+      link: /en/ 
+      lang: en
