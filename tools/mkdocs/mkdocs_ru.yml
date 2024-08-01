@@ -1,5 +1,5 @@
-docs_dir: ./docs/ru
-site_dir: ./site
+docs_dir: ./../../docs/ru/
+site_dir: ./../../site/ru/
 site_name: "SAF"
 site_author: "Сообщество SAF"
 copyright: "Сообщество SAF"
@@ -32,7 +32,7 @@ theme:
   features:
     - navigation.tabs
   palette:
-    - scheme: slate 
+    - scheme: slate
       toggle:
         icon: material/brightness-7
     - scheme: default
