@@ -1,0 +1,32 @@
+docs_dir: ./../../docs/
+site_dir: ./../../site/global/ru/
+site_name: "SAF"
+site_author: "Сообщество SAF"
+copyright: "Сообщество SAF"
+use_directory_urls: false
+nav:
+  - ОБЗОР:  README.md
+  - v1.0.0: /ru/v1.0.0/
+plugins:
+  - search:
+      lang: ru
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+extra:
+  alternate:
+    - name: Русский
+      link: /ru/
+      lang: ru  
+    - name: English
+      link: /en/
+      lang: en

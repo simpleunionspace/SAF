@@ -1,4 +1,4 @@
-docs_dir: ./../../docs/ru/
+docs_dir: ./../../docs/
 site_dir: ./../../site/ru/
 site_name: "SAF"
 site_author: "Сообщество SAF"
@@ -10,7 +10,7 @@ nav:
   - Уровень зрелости:
     - ОБЗОР:     maturity/README.md
     - Низкий:    maturity/low.md
-    - Средний:   maturity/average.md
+    - Средний:   maturity/medium.md
     - Высокий:   maturity/high.md
   - Модель:
     - ОБЗОР:     model/README.md
@@ -41,8 +41,8 @@ theme:
 extra:
   alternate:
     - name: Русский
-      link: /ru/ 
+      link: /ru/
       lang: ru  
     - name: English
-      link: /en/ 
+      link: /en/
       lang: en

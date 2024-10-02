@@ -1,0 +1,48 @@
+docs_dir: ./../../docs/
+site_dir: ./../../site/en/
+site_name: "SAF"
+site_author: "SAF community"
+copyright: "SAF community"
+use_directory_urls: false
+nav:
+  - OVERVIEW:    README.en.md
+  - Targets:     targets.en.md
+  - Maturity level:
+    - OVERVIEW:  maturity/README.en.md
+    - Low:       maturity/low.en.md
+    - Average:   maturity/medium.en.md
+    - High:      maturity/high.en.md
+  - Model:
+    - OVERVIEW:  model/README.en.md
+    - Object:    model/object.en.md
+    - Property:  model/property.en.md
+    - Link:      model/link.en.md
+    - Action:    model/action.en.md
+    - State:     model/state.en.md
+  - View: 
+    - OVERVIEW:  view/README.en.md
+    - Level:     view/level.en.md
+    - Slice:     view/slice.en.md
+plugins:
+  - search:
+      lang: en
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+extra:
+  alternate:
+    - name: Русский
+      link: /ru/
+      lang: ru  
+    - name: English
+      link: /en/
+      lang: en

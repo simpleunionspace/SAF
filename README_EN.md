@@ -1,5 +1,17 @@
 # Simple Architecture Framework
 
+## Structure
+
+- Depository
+
+  - docs
+
+    Documentations
+
+  - tools
+
+    Support tools
+
 ## Versioning
 
 [Semantic versioning 2.0.0](https://semver.org/lang/ru/spec/v2.0.0.html) is used for versioning.
