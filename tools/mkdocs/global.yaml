@@ -1,5 +1,5 @@
 docs_dir: ./../../docs/
-site_dir: ./../../site/global/ru/
+site_dir: ./../../site/ru/
 site_name: "SAF"
 site_author: "Сообщество SAF"
 copyright: "Сообщество SAF"
